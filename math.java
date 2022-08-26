@@ -1,26 +1,23 @@
 package com.subham;
 
 public class math {
-  static int x=2,y=1;
-    public void add(int a, int b){
-        System.out.println(a+b);
+    int c;
+    public int add(int a, int b){
+        c=a+b;
+        return c;
     }
-    public void substract(int a, int b){
-        System.out.println(a-b);
+    public int substract(int a, int b){
+       c=a-b;
+       return c;
     }
-    public void divide(int a, int b){
-        System.out.println(a/b);
+    public int divide(int a, int b){
+      c=a/b;
+      return c;
     }
-    public void multiply(int a, int b){
-        System.out.println(a*b);
-    }  public void compare(int a, int b){
-       if(a>b){
-           System.out.println(a +" is greater");
-       }else
-           System.out.println(b + " is greater");
+    public int multiply(int a, int b){
+       c= a*b;
+        return c;
     }
-    public void print(){
-        System.out.println(x);
-    }
+
 
 }
